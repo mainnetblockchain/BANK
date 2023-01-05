@@ -4,7 +4,7 @@ pragma solidity ^0.8.0;
 
 //i created a smart contract that allows a user to deposit, withdraw and save ETH!!
 
-contract SmartSHop{
+contract Bank{
     //we mapped the address of the caller balance in the contract
     mapping(address => uint) public balances;
 
